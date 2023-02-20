@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RRA-WebAutomation">
+	<test name="testDemo">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestScripts.OneTimeUserRegistrationTest" />
+			<class name="TestScripts.LTHUserRegistration" />
+		</classes>
+	</test>
+</suite>
